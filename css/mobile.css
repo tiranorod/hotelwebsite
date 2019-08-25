@@ -1,0 +1,56 @@
+/* Mobile Navigation Bar Styling */
+#navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul, #navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  padding: 5px;
+  border-bottom: #444 dotted 1px;
+}
+
+/* Main Page - Mobile Showcase Styles */
+#showcase {
+  height: 100%;
+}
+
+#showcase .showcase-content {
+  padding-top: 70px;
+  padding-bottom: 30px; 
+} 
+
+/* Main Page - Mobile Home Info Styles */
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  float: none;
+  width: 100%;
+}
+
+/* Mobile Features Styles */
+.box {
+  float: none;
+  width: 100%;
+}
+
+/* About Page - Mobile About Info Section */
+#about-info .info-right, #about-info .info-left {
+  float: none;
+  width: 100%;
+  text-align: center;
+}
+
+#about-info .info-right {
+  margin-top: 30px;
+}
+
+/* Contact Page - Mobile Contact Form */
+#contact-info .box {
+  border-bottom: 1px dotted #444;
+}

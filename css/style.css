@@ -81,12 +81,6 @@ p {
   background-color: #333;
   color: #fff;
 }
-/* Navigation Bar Styling */
-#navbar {
-  background-color: #333;
-  color: white;    
-  overflow: auto;
-}
 
   /* Padding Utility Classes */
   .py-1 {padding: 10px 0;}
@@ -96,15 +90,18 @@ p {
   /* Heading Utility Classes */
   .l-heading {font-size: 40px;}
 
-/* Why don't the links become white here? By specificity rules shouldn't they become 
-white as they are inside the id element? Or child elements don't get affected by the 
-specificity of their parents?*/
+/* Navigation Bar Styling */
+#navbar {
+  background-color: #333;
+  color: white;    
+  overflow: auto;
+}
 
 #navbar a {
   color: #fff;
 }
 
-#navbar h1 {
+#navbar .logo {
   float: left;
   padding-top: 20px;
 }
@@ -167,7 +164,7 @@ specificity of their parents?*/
 
 /* Main Page - Home Info Styles */
 #home-info {
-  height: 400px;
+  height: 450px;
 }
 #home-info .info-img {
   float: left;
@@ -189,7 +186,7 @@ specificity of their parents?*/
   padding-bottom: 30px;
 }
 
-/* Main Page - Features Styles */
+/* Features Styles */
 .box {
   float: left;
   width: 33.33%;
@@ -223,7 +220,7 @@ specificity of their parents?*/
 
 /* About Page - Testimonials Section */
 #testimonials {
-  height: 600px;
+  height: 100%;
   background: url("../img/test-bg.jpg") no-repeat center center/cover;
   padding-top: 40px;
 }
@@ -231,7 +228,7 @@ specificity of their parents?*/
 #testimonials h2 {
   color: #fff;
   text-align: center;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 #testimonials .testimonial {
